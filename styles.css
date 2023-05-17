@@ -1,0 +1,37 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('https://www.radiofrance.fr/s3/cruiser-production/2022/03/82763f52-9102-40cd-9e72-5b0374803c28/870x489_carto_gps.jpg');
+    background-size: cover;
+    background-position: center;
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: rgba(255, 255, 255, 0.8);
+  }
+  
+  h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .redirect-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4285F4;
+    color: #ffffff;
+    font-size: 18px;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  .redirect-button:hover {
+    background-color: #3367D6;
+  }
+  
